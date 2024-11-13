@@ -13,7 +13,7 @@ if($PAGE == "error"){
 ?>
 <!DOCTYPE HTML>
 <html>
-<head><style>body{background:red;}</style></head><body>errore 410</body>
+<head><meta name="robots" content="noindex,nofollow" /></head>
 </html>
 <?php    
 }
