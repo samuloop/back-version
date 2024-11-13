@@ -1,0 +1,15 @@
+@font-face {font-family:sym; font-style:normal; font-weight:normal; src:url("sym.ttf"); format('ttf'); }
+@font-face {font-family:sym; font-style:normal; font-weight:bold; src:url("sym-bold.ttf"); format('ttf'); }
+@font-face {font-family:sym; font-style:italic; font-weight:bold; src:url("sym-bold-oblique.ttf"); format('ttf'); }
+@font-face {font-family:sym; font-style:italic; font-weight:normal; src:url("sym-oblique.ttf"); format('ttf'); }
+
+@font-face {font-family:sym-aggraziato; font-style:normal; font-weight:normal; src:url("sym-aggraziato.ttf"); format('ttf'); }
+@font-face {font-family:sym-aggraziato; font-style:normal; font-weight:bold; src:url("sym-aggraziato-bold.ttf"); format('ttf'); }
+@font-face {font-family:sym-aggraziato; font-style:italic; font-weight:bold; src:url("sym-aggraziato-bold-italic.ttf"); format('ttf'); }
+@font-face {font-family:sym-aggraziato; font-style:italic; font-weight:normal; src:url("sym-aggraziato-italic.ttf"); format('ttf'); }
+
+@font-face {font-family:sym-mono; font-style:normal; font-weight:normal; src:url("sym-mono.ttf"); format('ttf'); }
+@font-face {font-family:sym-mono; font-style:normal; font-weight:bold; src:url("sym-mono-bold.ttf"); format('ttf'); }
+@font-face {font-family:sym-mono; font-style:italic; font-weight:bold; src:url("sym-mono-bold-oblique.ttf"); format('ttf'); }
+@font-face {font-family:sym-mono; font-style:italic; font-weight:normal; src:url("sym-mono-oblique.ttf"); format('ttf'); }
+

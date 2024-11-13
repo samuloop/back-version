@@ -1,0 +1,17 @@
+RewriteEngine On
+DirectoryIndex main.php
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !tema|img
+RewriteRule ^(.*)$ main.php [L]
+RewriteRule "^tema/(.*)$" "system/models/$1" [L]
+RewriteRule "^img/(.*)$" "data/images/$1" [L]
+
+php_flag log_errors on
+php_value error_reporting 32767
+php_value error_log "ERROR_LOG"
+
+#Header set Access-Control-Allow-Origin "*"
+#php_flag register_globals Off

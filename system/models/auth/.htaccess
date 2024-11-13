@@ -1,0 +1,4 @@
+#RewriteRule "auth/verify" "/auth/verify" [L]
+#RewriteRule "auth/sign-up" "/system/models/auth/sign-up.php" [L]
+#RewriteRule "auth/sign-in" "/system/models/auth/sign-in.php" [L]
+#RewriteRule "auth/password-recovery" "/system/models/auth/password-recovery.php" [L]

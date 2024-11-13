@@ -1,0 +1,87 @@
+@import url("fogli-di-stile/framework.css");
+@import url("fogli-di-stile/framework-grids.css");
+@import url("fogli-di-stile/fonts/fonts.css");
+body,html{background: #F5F6F7; }
+*{font-family:sym; font-size:0.978rem;}
+.pure-g{box-sizing:border-box;}
+.align-r{text-align: right; text-decoration: underline;}
+.content{background: none;}
+.content .pure-u-1 h1{text-align:center; margin:2.5vh auto; padding: 1em; font-size: 40px;}
+.content .login, .content .signup{text-align:center;  background-color: #FFFFFF; padding: 0.5em; }
+
+form#auth_form{margin:2rem auto; }
+form#auth_form input{ margin:0; }
+form#auth_form input[type="submit"]{
+    width: 18em;
+    border-radius: 6px;     
+    border:1px solid #DADADA;
+    background-color: #29B9AD;
+    color:#0C193A;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.0rem;
+    padding: 0.8em;
+    
+    letter-spacing: 0.0091em;
+}
+form#auth_form checkbox{
+    border:23px solid #DADADA;
+    border-radius: 6px;
+    padding:20.8em;
+    box-shadow: none;
+    caret-color:#717171;
+    color: #020304;
+    }
+form#auth_form input[type="password"],
+form#auth_form input[type="text"]{ 
+    border:1px solid #DADADA;
+    border-radius: 6px;
+    width:18em;
+    padding:0.8em;
+    box-shadow: none;
+    caret-color:#717171;
+    color: #020304;
+    font-weight: normal;
+    font-family: inherit;
+    font-size: inherit;
+    transition: all ease-in-out 0.1s;
+}
+::placeholder{color:transparent;}
+form#auth_form .field{margin:0.889rem auto; position:relative; width:18em;}
+form#auth_form .field label{position:absolute; left: 0.978rem; top:calc(37% - 0.489rem); transition: all ease-in-out 0.3s; color:#C7CCD8; padding: 1px 4px;}
+
+form#auth_form .field input[type="text"]:focus,
+form#auth_form .field input[type="password"]:focus
+{box-shadow: 1px 1px 2px 1px #D8DADF;}
+
+form#auth_form .field input[type="password"]:valid{color: transparent;
+     text-shadow: 0 0 5px rgba(0,0,0,0.5); }
+
+form#auth_form .field input[type="text"]:valid+label,
+form#auth_form .field input[type="text"]:focus+label,
+form#auth_form .field input[type="password"]:valid+label,
+form#auth_form .field input[type="password"]:focus+label{
+    background-color: #FFFFFF;
+    font-size: 0.819em;
+    color:#C7CCD8;
+    transform: translateY(calc(-70% - 0.521rem) );
+    transition: all 0.1s;
+}
+
+form#auth_form{margin:5% 15px;}
+
+header{background-color:#FFFFFF; width:calc(100vw - 2rem); padding:0; margin:0; height:34px; padding:1rem 1rem;}
+header .pure-g .pure-u-1-3{text-align:left; vertical-align:middle; }
+header .pure-g .pure-u-1-3 img{text-align:center; margin:0 auto;}
+h2{font-weight: bold; font-size: 1.234rem; }
+h3{font-weight: normal; font-size: 1.134rem;}
+form#auth_form .field #eyes{position: absolute; right: 18px; width:22px; height:22px; right: 0.978rem; top:calc(50% - 11px); cursor:pointer; cursor:hand;}
+form#auth_form .field #eyes.show-password-off{background-image: url('icons/show-password-off.svg'); background-size:cover; background-color: transparent;}
+form#auth_form .field #eyes.show-password-on{background-image: url('icons/show-password-on.svg'); background-size:cover; background-color: transparent;}
+@media (min-width: 1024px){ 
+.content .login{margin-left: -2em; margin-right:0.5em;}
+.content .signup{margin-left: 0.5em; margin-right:0;}
+}
+@media (max-width: 1023px){ 
+.content .signup, .content .login{margin-left: -2em; margin-right:0.5em;}
+}

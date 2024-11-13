@@ -1,0 +1,33 @@
+@import url("fogli-di-stile/framework.css");
+@import url("fogli-di-stile/framework-grids.css");
+@import url("fogli-di-stile/framework-menu.css");
+@import url("fogli-di-stile/fonts.css");
+:root {
+    --font-base: #1C1B26;
+    --link-chiaro:#7F8292;
+    --link: #028399;
+    --link-hover: #8ED0E8;
+    --sfondo: #FCFBFE;
+    --sole-luna: #FCFBFE;
+    --sfondo-testata: #1C1B26;
+    --banner: #FDDF31;
+}
+[data-tema="scuro"] {
+ --font-base: #FCFBFE;
+ --sfondo: #1C1B26;
+ --link-chiaro:#7F8292;
+ --link: #028399;
+ --link-hover: #8ED0E8;
+ --sfondo-testata: #1C1B26;
+ --banner: #FDDF31;
+ --sole-luna: #FCFBFE;
+}
+
+body,html{background-color: var(--sfondo); font-family:benton; font-size:1em; font-weight:400;}
+.pure-g{box-sizing:border-box;}
+.wrap{}
+@media (min-width: 1024px){ 
+}
+@media (max-width: 1023px){ 
+
+}

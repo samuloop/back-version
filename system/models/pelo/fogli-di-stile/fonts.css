@@ -1,0 +1,32 @@
+@font-face {font-family: 'font1'; src: url('fonts/BentonSans-Regular.ttf'); font-weight:400; font-style: normal; }
+@font-face {font-family: 'font1';  src: url('fonts/BentonSans-Thin.ttf'); font-weight:300; font-style: normal; }
+@font-face {font-family: 'font1'; src: url('fonts/BentonSans-Light.ttf'); font-weight:200; font-style: normal; }
+@font-face {font-family: 'font1';  src: url('fonts/BentonSans-Medium.ttf'); font-weight:500; font-style: normal; }
+@font-face {font-family: 'font1'; src: url('fonts/BentonSans-ExtraLight.ttf'); font-weight:100; font-style: normal; }
+@font-face {font-family: 'font1'; src: url('fonts/BentonSans-Black.ttf'); font-weight:700; font-style: normal; }
+@font-face {font-family: 'font1';  src: url('fonts/BentonSans-Bold.ttf'); font-weight:500; font-style: normal; }
+@font-face {font-family: 'font1'; src: url('fonts/BentonSans-Book.ttf'); font-weight:400; font-style: italic; }
+
+@font-face {font-family: 'font2'; src: url('fonts/BentonSansCond-Regular.ttf'); font-weight:400; font-style: normal; }
+@font-face {font-family: 'font2';  src: url('fonts/BentonSansCond-Thin.ttf'); font-weight:300; font-style: normal; }
+@font-face {font-family: 'font2'; src: url('fonts/BentonSansCond-Light.ttf'); font-weight:200; font-style: normal; }
+@font-face {font-family: 'font2';  src: url('fonts/BentonSansCond-Medium.ttf'); font-weight:500; font-style: normal; }
+@font-face {font-family: 'font2'; src: url('fonts/BentonSansCond-Book.ttf'); font-weight:400; font-style: italic; }
+@font-face {font-family: 'font2';  src: url('fonts/BentonSansCond-Black.ttf'); font-weight:700; font-style: normal; }
+@font-face {font-family: 'font2'; src: url('fonts/BentonSansCond-Bold.ttf'); font-weight:500; font-style: normal; }
+
+@font-face {font-family: 'font3'; src: url('fonts/BentonSansComp-Regular.ttf'); font-weight:400; font-style: normal; }
+@font-face {font-family: 'font3';  src: url('fonts/BentonSansComp-Thin.ttf'); font-weight:300; font-style: normal; }
+@font-face {font-family: 'font3'; src: url('fonts/BentonSansComp-Light.ttf'); font-weight:200; font-style: normal; }
+@font-face {font-family: 'font3';  src: url('fonts/BentonSansComp-Medium.ttf'); font-weight:500; font-style: normal; }
+@font-face {font-family: 'font3'; src: url('fonts/BentonSansComp-Book.ttf'); font-weight:400; font-style: italic; }
+@font-face {font-family: 'font3';  src: url('fonts/BentonSansComp-Black.ttf'); font-weight:700; font-style: normal; }
+@font-face {font-family: 'font3'; src: url('fonts/BentonSansComp-Bold.ttf'); font-weight:500; font-style: normal; }
+
+@font-face {font-family: 'font4'; src: url('fonts/BentonSansExtracomp-Regular.ttf'); font-weight:400; font-style: normal; }
+@font-face {font-family: 'font4';  src: url('fonts/BentonSansExtracomp-Thin.ttf'); font-weight:300; font-style: normal; }
+@font-face {font-family: 'font4'; src: url('fonts/BentonSansExtracomp-Light.ttf'); font-weight:200; font-style: normal; }
+@font-face {font-family: 'font4';  src: url('fonts/BentonSansExtracomp-Medium.ttf'); font-weight:500; font-style: normal; }
+@font-face {font-family: 'font4'; src: url('fonts/BentonSansExtracomp-Book.ttf'); font-weight:400; font-style: italic; }
+@font-face {font-family: 'font4';  src: url('fonts/BentonSansExtracomp-Black.ttf'); font-weight:700; font-style: normal; }
+@font-face {font-family: 'font4'; src: url('fonts/BentonSansExtracomp-Bold.ttf'); font-weight:500; font-style: normal; }
